@@ -1,0 +1,31 @@
+{
+  "name": "workoutproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "consolidate": "^0.16.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "html": "^1.0.0",
+    "mongoose": "^6.5.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pg": "^8.7.3",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
