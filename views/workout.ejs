@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<link
+			href="../public/assets/workout.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+
+		<title>Workouts</title>
+	</head>
+	<body>
+		<a href="./">Home</a>
+		<h1>List of Workouts</h1>
+		<div class="workoutContainer">
+			<ul>
+			<% for(let i=0; i<workouts.length; i++) {%>	
+				<div class="workoutTitle">
+			   		<h2><%= workouts[i].title %></h2>
+			    </div>
+					<div class="workoutImage">
+						<img src=<%=workouts[i].img %>>
+					</div>
+				<br><br><br>
+			   
+			<% } %>
+			</ul>
+			</div>
+		</div>
+	</body>
+</html>

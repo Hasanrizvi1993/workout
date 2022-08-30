@@ -1,3 +1,31 @@
+body {
+	height: auto;
+}
+
 #homee {
 	text-align: center;
+}
+
+#BMI {
+	text-align: center;
+	padding: 5px;
+	border-radius: 10px;
+	border: 5px;
+	width: max-content;
+	border-style: solid;
+	border: 4mm ridge rgba(211, 220, 50, 0.6);
+}
+
+.resultChart {
+	text-align: center;
+	border: 4mm ridge blue;
+	padding: 5px;
+	width: max-content;
+}
+
+#BMIINFO {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
 }

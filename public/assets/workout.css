@@ -1,3 +1,13 @@
 body {
-    text-align: center;
+	text-align: center;
+	/* position: relative; */
+	width: auto;
+}
+
+.workoutContainer {
+	position: relative;
+	display: table;
+	width: min-content;
+	margin: auto;
+	align-items: center;
 }

@@ -3,10 +3,10 @@ const path = require("path");
 const db = require("../model/workout");
 
 const workoutView = (req, res) => {
-	// res.render("workout", {
-	// 	workouts: db.workouts,
-	// });
-	res.sendFile(path.join(__dirname, "../views/workout.html"));
+	res.render("workout", {
+		workouts: db.workouts,
+	});
+	// res.sendFile(path.join(__dirname, "../views/workout.html"));
 };
 const homeView = (req, res) => {
 	res.sendFile(path.join(__dirname, "../views/home.html"));
